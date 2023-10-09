@@ -1,0 +1,234 @@
+body{
+    /* setting margin to 0  and left right as auto*/
+    margin: 0 auto;
+    background-color: #94949b;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+/* --------------------------------------------- HEADER */
+.logo{
+    float: left;
+    padding: 15px;
+}
+
+.search{
+    float: right;
+    padding: 15px;
+    margin-top: 39.66px;
+}
+
+/* to clear floating of logo and search */
+.clearfix{
+    clear: both;
+}
+
+/* ---------------------------------------- NAV BAR */
+.main-menu{
+    background-color: teal;
+}
+/* nav-ul */
+/* get rid of ul unnecessary margin */
+.main-menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+/* nav-ul-li */
+.main-menu > ul > li{
+    display: inline-block;
+}
+/* nav-ul-li-a */
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: rgb(173, 209, 44);
+    /* text-align: -webkit-match-parent; */
+}
+
+/* ---------------------------------------- DROPDOWN */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    /* for dropdown while sliding */
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: rgb(46, 3, 3);
+}
+.drop > li > a:hover{
+    background-color: rgb(173, 209, 44);
+}
+
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+
+/* ------------------------------------- BANNER */
+.banner{
+    width: 1000px;
+    height: 664.16px;
+    /* Over flow any thing coming outside the div is hidden */
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/* /* ------------------------------------------- CONTENT HOLDER * */
+.content-holder{
+    background-color: darkolivegreen;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: cadetblue;
+    float: left;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+/* ------------------------------------------- SIDE BAR */
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: aquamarine;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: azure;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* ------------------------------------------ Making FOOTER */
+.main-footer{
+    background-color: rgb(49, 9, 9);
+    color: white;
+    width: 950px;
+    padding: 25px;
+}
+.footer-box{
+    /* calculte how tha body pixels and divide by how many footer-box you have*/
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+/* --for address */
+address p{
+    font-size: small;
+}
+.footer-box address a{
+    color: teal;
+    font-size: small;
+}
+
+/* PRODUCT PAGE */
+.product{
+    width: 211.33px;
+    height: auto;
+    /* height: 131.3px; */
+    float: left;
+    border: 1px solid brown;
+    margin: 5px;
+    padding: 5px;
+}
+.product-caption p{
+    font-weight: bold;
+}
+.product-caption del{
+    color: rgb(165, 22, 22);
+}
+.product-caption ins{
+    color: rgb(7, 76, 7);
+}
+.product-caption a{
+    display: block;
+    background-color: teal;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
+.product-caption a:hover{
+    background-color: rgb(208, 147, 35);
+}
+
+/* ---------------COPYRIGHT */
+.copyright{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+.copyright p{
+    margin: 0px;
+}
+
+/* ABOUT US PAGE */
+/* PAGE */
+.content img{
+    max-width: 100%;
+}
+
+/* ----------------- CONTACT  */
+.banner iframe{
+    width: 100%;
+    height: 664.16px;
+}

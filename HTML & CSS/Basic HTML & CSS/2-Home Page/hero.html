@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: 'Rubik', sans-serif;
+            color: #444;
+            /* color: #2f9e44; */
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 1200px;
+        }
+
+        header {
+            /* background-color: aqua; */
+            /* 100vh = 100% of available view */
+            height: 100vh;
+            position: relative;
+
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.6), 
+                rgba(26, 24, 24, 0.6)
+                ), 
+                /* url(lake-4988553.jpg); */
+                url(https://cdn.pixabay.com/photo/2019/03/07/04/52/himalaya-4039495_1280.jpg);
+            background-size: cover;
+            color: #fff;
+        }
+
+        nav {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            /* background-color: #2b8a3e; */
+            /* background-color: blue; */
+            padding-top: 32px;
+        }
+
+        .header-container {
+            width: 1200px;
+            position: absolute;
+
+            /* In relation to the parent size */
+            left: 50%;
+            top: 50%;
+
+            /* In relation to ELEMENT size */
+            transform: translate(-50%, -50%);
+
+            /* background-color: chocolate; */
+
+            text-align: center;
+        }
+
+        .header-container-inner {
+            width: 50%;
+            /* background-color: aliceblue; */
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+            line-height: 1.05;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
+
+        .btn:link,
+        .btn:visited {
+            font-size: 20px;
+            font-weight: 600;
+            background-color: #1864ab;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 9px;
+        }
+
+        h2{
+            font-size: 44px;
+            margin-bottom: 48px;
+        }
+
+        section {
+            padding: 96px 0;
+            color: #444;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <div>Logo</div>
+            <div>NAVIGATION</div>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-container-inner">
+                <h1>Jobs fill your pocket, but adventures fill your soul</h1>
+                <p>December is an ideal time for trekking in Nepal's Himalayas, with snow-covered landscapes adding
+                excitement. The high Himalayan regions are crowded during this period, especially from October to
+                December.</p>
+            <a href="#" class="btn">Start travelling now</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Some random heading</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsam a quo nam, asperiores odio omnis
+                totam? Sapiente facere voluptatum doloribus corporis voluptates. Fugit doloribus soluta ab fugiat
+                officiis totam dignissimos minima libero tempora, vel voluptatum amet sapiente cumque dolores optio
+                atque blanditiis at vero velit itaque perferendis! Quas, omnis quasi id saepe ab hic sit temporibus ea
+                eaque reiciendis?</p>
+        </div>
+    </section>
+
+</body>
+
+</html>

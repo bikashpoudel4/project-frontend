@@ -1,0 +1,20 @@
+.brand-gradient{ 
+    background: #1713d8; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0d5408, #3f2cd0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0b08a9, #6c3f22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner-holder, .main-page-header{
+    /* background-image: url(./img/banner.jpg); */
+    background-image: url(img/banner4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* background-color: rgba(0, 0, 0, 0.89) */
+}
+
+.custom-nav{
+    backdrop-filter: blur(8px);
+}

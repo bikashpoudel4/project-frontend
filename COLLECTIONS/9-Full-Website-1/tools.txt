@@ -1,0 +1,6 @@
+FontAwesome: - https://cdnjs.com/libraries/font-awesome
+
+GoogleFonts: - https://fonts.google.com/
+                - Croiessant One: - https://fonts.google.com/specimen/Croissant+One?query=croissant+one
+                - Mooli: - https://fonts.google.com/specimen/Mooli?query=mooli
+                - Mukta: - https://fonts.google.com/specimen/Mukta?query=mukta
